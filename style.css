@@ -1,0 +1,118 @@
+/* =========================================
+   Super Simple CSS Lab (with <div> only)
+   Comments explain each property simply.
+   ========================================= */
+
+/* BASIC PAGE SETTINGS */
+body {
+    font-family: 'Inter', Arial, sans-serif; /* sets text style */
+    background-color: #f5f7fb;               /* page background color */
+    color: #1f2937;                          /* text color */
+    margin: 0;                               /* removes default outside space */
+    line-height: 1.6;                        /* space between lines */
+  }
+  
+  /* TITLES */
+  h1, h2, h3, h4 {
+    text-align: center;      /* center the text */
+    text-transform: uppercase; /* make letters big */
+    letter-spacing: 1px;     /* small gap between letters */
+    margin: 0.5rem 0;
+  }
+  
+  .subtitle {
+    text-align: center;
+    color: #475569; /* softer gray-blue */
+    margin-top: -6px;
+  }
+  
+  /* HEADER */
+  #top {
+    background-color: #0ea5e9; /* bright blue bar */
+    color: white;
+    padding: 16px 12px;        /* space inside box */
+  }
+  
+  /* HERO AREA */
+  #hero {
+    background-color: #e0f2fe; /* light blue area */
+    padding: 20px;             /* space inside the box */
+    border: 2px solid #bae6fd; /* blue border */
+    border-radius: 12px;       /* rounded corners */
+    max-width: 900px;          /* don’t let it get too wide */
+    margin: 16px auto;         /* center on the page */
+    text-align: center;
+  }
+  
+  /* IMAGE */
+  .main-img {
+    display: block;            /* makes image a block element */
+    margin: 12px auto;         /* centers it */
+    width: 70%;                /* make it smaller */
+    max-width: 720px;
+    border: 4px solid #ffffff; /* white border */
+    border-radius: 16px;       /* round corners */
+  }
+  
+  /* CARD BOXES */
+  .card {
+    background-color: #ffffff;
+    border: 2px solid #e5e7eb; /* light gray border */
+    border-radius: 12px;       /* round corners */
+    padding: 16px;             /* space inside box */
+    max-width: 900px;
+    margin: 16px auto;         /* center */
+    box-shadow: 0 6px 14px rgba(0,0,0,0.08); /* small shadow effect */
+  }
+  
+  /* BUTTON */
+  .btn {
+    text-decoration: none;   /* remove underline */
+    background-color: #22c55e; /* green color */
+    color: white;
+    padding: 8px 12px;
+    border: 2px solid #16a34a;
+    border-radius: 8px;      /* smooth corners */
+    display: inline-block;   /* makes link behave like a button */
+  }
+  .btn:hover {
+    background-color: #16a34a; /* darker green when hovered */
+  }
+  
+  /* GROUP OF CARDS */
+  .cards {
+    max-width: 900px;
+    margin: 16px auto;
+  }
+  
+  /* CARD TITLES */
+  .card-title {
+    font-size: 1.25rem; /* make card titles a bit bigger */
+    margin-top: 0;
+  }
+  
+  /* FOOTER */
+  footer {
+    text-align: center;
+    color: #64748b;
+    padding: 20px 0;
+    border-top: 2px solid #e2e8f0;
+  }
+  
+  /* QUICK REFERENCE FOR STUDENTS:
+  - font-family → text style
+  - background-color → color behind an element
+  - color → text color
+  - margin → outside spacing
+  - padding → inside spacing
+  - border → line around a box
+  - border-radius → curve corners
+  - width / max-width → how wide something is
+  - text-align → left, center, or right
+  - text-transform → uppercase/lowercase
+  - letter-spacing → space between letters
+  - display → how element behaves (block or inline)
+  - text-decoration → underline or none
+  - box-shadow → little shadow behind elements
+  */
+  
