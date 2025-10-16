@@ -6,8 +6,8 @@
 /* BASIC PAGE SETTINGS */
 body {
     font-family: 'Inter', Arial, sans-serif; /* sets text style */
-    background-color: #f5f7fb;               /* page background color */
-    color: #1f2937;                          /* text color */
+    background-color: #ff7b00;               /* page background color */
+    color: #ffffff;                          /* text color */
     margin: 0;                               /* removes default outside space */
     line-height: 1.6;                        /* space between lines */
   }
@@ -68,7 +68,7 @@ body {
   /* BUTTON */
   .btn {
     text-decoration: none;   /* remove underline */
-    background-color: #22c55e; /* green color */
+    background-color: #3222c5; /* green color */
     color: white;
     padding: 8px 12px;
     border: 2px solid #16a34a;
